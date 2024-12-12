@@ -11,6 +11,8 @@ body {
     text-align: center;
     font-size: 35px;
     padding-top: 40px;
+    max-width: fit-content;
+    min-width: fit-content;
 }
 
 .div1 p {
@@ -23,6 +25,8 @@ body {
     background-color: rgb(222, 238, 251);
     height: 45vh;
     padding: 10px;
+    max-width: fit-content;
+    min-width: fit-content;
 
 }
 
@@ -38,6 +42,9 @@ body {
     margin: 20px;
     padding: 10px;
   line-height: 1.3;
+  max-width: fit-content;
+  min-width: fit-content;
+
 
 }
 
@@ -46,29 +53,38 @@ body {
     font-size: large;
     margin-left: 390px;
     position: relative;
+    max-width: fit-content;
+    min-width: fit-content;
+    
+
 }
 #p2{
     margin-left: 390px;
     position: relative;
     font-size: large;
+    max-width: fit-content;
+    min-width: fit-content;
 }
-#more {
+.div2 #more {
     color: black;
     font-size: large;
     position: relative;
     float: right;
     margin-top: 10px;
     margin-right: 59em;
+    max-width: max-content;
+    min-width: max-content;
 }
 
 .div3 img {
     display: block;
     padding: 40px;
-    /* align-items: center; */
+   
     width: 80%;
     height: 40vh;
     align-content: center;
     position: relative;
     margin: 0 auto;
+    max-width:max-content;
 
 }
