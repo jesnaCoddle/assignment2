@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: content-box; */
+    box-sizing: border-box;
 }
 
 body {
@@ -51,7 +51,8 @@ body {
 }
 
 .content{
-    display:block ;
+    display:flex ;
+    flex-direction: column;
     margin-bottom: 5px;
     font-size: 1rem;
     line-height: 1.5;
