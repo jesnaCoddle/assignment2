@@ -10,9 +10,10 @@ body {
     line-height: 1.6;
 }
 
-/* div {
+div {
     border: 1px solid red;
-} */
+    max-width: 15;
+}
 
 .div1 {
     text-align: center;
@@ -83,6 +84,7 @@ body {
     /* border: 1px solid red; */
 }
 
+/* mobile screen */
 
 /* xs */
 /* @media screen and (min-width:475px) {
@@ -130,3 +132,70 @@ body {
     }
 
 } */
+
+/* desktop screen */
+
+/* 2xl */
+/* @media screen and (max-width:1536px) {
+    div{
+        max-width: 1280px;
+        /* font-size: ; */
+    /* } */
+/* }  */
+/* xl */
+@media screen and (max-width:1280px) {
+    div{
+        max-width: 1024px;
+        font-size: large;
+        /* font-size: ; */
+    }
+}
+
+/* lg */
+@media screen and (max-width:1024px) {
+    div{
+        max-width: 768px;
+        /* font-size: medium; */
+        /* font-size: ; */
+    }
+    /* .content .div2{
+        font-size: large;
+    } */
+}
+/* md */
+@media screen and (max-width:768px) {
+    div{
+        max-width: 640px;
+        /* font-size: small; */
+        /* font-size: ; */
+    }
+    /* .content .div2{
+        font-size: medium;
+    } */
+}
+/* sm */
+@media screen and (max-width:640px) {
+    div{
+        max-width: 475px;
+        /* font-size: smaller; */
+        /* font-size: ; */
+    }
+    /* .content .div2{
+        font-size: small;
+    } */
+}
+
+/* xs */
+@media screen and (max-width:475px) {
+    div{
+        max-width: 100%;
+        /* font-size: x-small; */
+        /* font-size: ; */
+    }
+    /* .content .div2{
+        font-size: x-small;
+    } */
+
+}
+
+
