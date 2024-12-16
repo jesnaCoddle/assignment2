@@ -1,6 +1,7 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    /* width: 100%; */
 }
 
 body {
@@ -8,6 +9,10 @@ body {
     color: #844a4a;
     line-height: 1.6;
 }
+
+/* div {
+    border: 1px solid red;
+} */
 
 .div1 {
     text-align: center;
@@ -55,7 +60,7 @@ body {
     color: #3c3c3c;
     font-size: 1.3rem;
     margin-bottom: 10px;
-   
+
 
 }
 
@@ -66,14 +71,62 @@ body {
 
 .div3 {
     text-align: center;
-    margin-top: 30px;
-
+   
 }
 
 .div3 img {
+    margin-left: 75px;
+    margin-top: 40px;
+    max-width: 100%;
     width: 75%;
     height: 300px;
+    /* border: 1px solid red; */
 }
 
 
+/* xs */
+/* @media screen and (min-width:475px) {
+    div {
+        max-width: 475px;
+    }
 
+} */
+
+/* sm */
+/* @media screen and (min-width:640px) {
+
+    div {
+        max-width: 640px;
+    }
+} */
+
+/* md */
+/* @media screen and (min-width:768px) {
+    div {
+        max-width: 768px;
+    }
+
+} */
+
+/* lg */
+/* @media screen and (min-width:1024px) {
+    div {
+        max-width: 1024px;
+    }
+
+} */
+
+/* xl */
+/* @media screen and (min-width:1280px) {
+    div {
+        max-width: 1280px
+    }
+} */
+
+/* 2xl */
+/* @media screen and (min-width:1244px) {
+    div {
+        max-width: 1244px;
+    }
+
+} */
