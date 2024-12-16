@@ -15,7 +15,7 @@ body {
 } */
 
 .div1 {
-    align-items: center;
+    
     text-align: center;
     padding: 50px 30px;
 }
@@ -44,10 +44,13 @@ body {
     text-align: center;
     flex: 1;
     margin-left: 200px;
+    /* overflow: hidden; */
+    position: relative;
 }
 
 
 .div2 .content {
+    position: relative;
     color: #3c3c3c;
     margin-left: 100px;
     padding: 10px;
