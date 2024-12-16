@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -42,7 +41,7 @@ body {
 
 .div2 .content {
     color: #3c3c3c;
-   margin-left: 100px;
+    margin-left: 100px;
     padding: 10px;
 }
 
@@ -56,6 +55,7 @@ body {
     color: #3c3c3c;
     font-size: 1.3rem;
     margin-bottom: 10px;
+   
 
 }
 
@@ -74,3 +74,6 @@ body {
     width: 75%;
     height: 300px;
 }
+
+
+
