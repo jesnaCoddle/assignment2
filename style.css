@@ -1,7 +1,6 @@
 * {
     margin: 0 auto;
     padding: 0;
-    /* width: 100%; */
 }
 
 body {
@@ -10,10 +9,10 @@ body {
     line-height: 1.6;
 }
 
-div {
+/* div {
     border: 1px solid red;
     max-width: 15;
-}
+} */
 
 .div1 {
     text-align: center;
@@ -33,12 +32,14 @@ div {
 }
 
 .div2 {
+    /* width: 100%; */
     display: flex;
     background-color: #e5ecf9;
     padding: 40px 30px;
 }
 
 .div2 .img {
+  
     text-align: center;
     flex: 1;
     margin-left: 200px;
