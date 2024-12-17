@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -77,7 +78,7 @@ body {
 .section-2 .content p {
     color: #3c3c3c;
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: justifys;
     margin-bottom: 10px;
 
 
