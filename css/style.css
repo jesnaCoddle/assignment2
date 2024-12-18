@@ -41,8 +41,8 @@ body {
 }
 
 .main .content {
-    margin-left: 53px;
     display: inline-block;
+    max-width: 100%;
 }
 
 
@@ -53,9 +53,10 @@ body {
 
 .main .content p {
     color: #000000;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.4;
-    text-align: justifys;
+    text-align: justify;
+    margin-bottom: 10px;
 }
 
 .main .content a {
