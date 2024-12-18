@@ -1,76 +1,89 @@
 * {
     margin: 0 auto;
-    padding: 5px;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     max-width: 100%;
 }
 
-.header {
+body {
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .header {
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .header h1 {
-    font-size: 3.6rem;
-    color: #9d7236;
-    margin-bottom: 10px;
+    color: rgb(202, 89, 36);
+    font-size: 40px;
+    margin-top: 45px;
 }
 
 .header p {
-    font-size: 1.1rem;
-    color: #000000;
-    text-align: justify;
-    width: 75%;
+    font-weight: lighter;
+    text-align: center;
+    width: 50%;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.container .main {
+    max-width: 100%;
+    text-align: left;
+    background-color: rgb(208, 228, 221);
+    display: flex;
+
 }
 
 .main {
-    display: flex;
-    background-color: #e5e5e5;
-    max-width: 100%;
-}
-
-.main .img {
+    padding: 35px;
     text-align: left;
 }
 
-.main .content {
-    display: inline-block;
-    max-width: 100%;
+.container .content {
+    line-height: 1.2;
+    margin-left: -15%;
+    width: 30%;
 }
 
+.container .img {
+    /* border: 1px solid rgb(255, 81, 0); */
+    margin-left: 16%;
+    height: 300px;
 
-.main .content .p1 {
-    color: #000000;
-    font-size: 1.9rem;
 }
 
-.main .content p {
-    color: #000000;
-    font-size: 1.1rem;
-    line-height: 1.4;
-    text-align: justify;
+.content .p1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-weight: thin;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
-.main .content a {
-    color: #000000;
-    font-size: 1rem;
+.content a {
+    color: #000;
 }
 
 .footer {
-    text-align: left;
-    display: flex;
+    text-align: center;
+}
+
+.container .footer {
+    text-align: center;
+    height: 300px;
 }
 
 .footer img {
-    width: 99%;
-    height: 339px;
-    object-fit: fill;
+    text-align: left;
+    height: 300px;
+    object-fit: cover;
+    width: 990px;
 }
